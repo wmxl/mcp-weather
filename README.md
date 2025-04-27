@@ -25,7 +25,7 @@ This will generate a JAR file in the `target` directory.
 ## Running the Server
 
 ```bash
-java -jar target/demo-0.0.1-SNAPSHOT.jar
+java -jar target/mcp-weather-stdio-server-0.0.1-SNAPSHOT
 ```
 
 ## Configuring Claude for Desktop
@@ -43,7 +43,7 @@ To use this MCP server with Claude for Desktop:
       "command": "java",
       "args": [
         "-jar",
-        "/ABSOLUTE/PATH/TO/demo-0.0.1-SNAPSHOT.jar"
+        "/ABSOLUTE/PATH/TO/mcp-weather-stdio-server-0.0.1-SNAPSHOT"
       ]
     }
   }

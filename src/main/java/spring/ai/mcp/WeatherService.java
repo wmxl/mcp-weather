@@ -1,4 +1,4 @@
-package com.example.demo;
+package spring.ai.mcp;
 
 import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.ai.tool.annotation.ToolParam;
@@ -35,5 +35,10 @@ public class WeatherService {
             default:
                 return "Weather information not available for " + city + ".";
         }
+    }
+
+    @Tool(description = "Get beijing weather")
+    public String getBeijingWeather() {
+        return getWeatherForCityTool("beijing");
     }
 }

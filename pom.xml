@@ -11,8 +11,8 @@
 	<groupId>com.example</groupId>
 	<artifactId>mcp-weather-stdio-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
-	<description>Demo project for Spring Boot</description>
+	<name>spring-ai-mcp</name>
+	<description>Spring AI MCP Project</description>
 	<url/>
 	<licenses>
 		<license/>
