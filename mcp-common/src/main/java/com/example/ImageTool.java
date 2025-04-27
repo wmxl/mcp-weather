@@ -1,4 +1,4 @@
-package spring.ai.mcp;
+package com.example;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;

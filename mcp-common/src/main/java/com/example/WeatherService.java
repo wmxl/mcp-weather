@@ -1,4 +1,4 @@
-package spring.ai.mcp;
+package com.example;
 
 import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.ai.tool.annotation.ToolParam;
@@ -41,4 +41,4 @@ public class WeatherService {
     public String getBeijingWeather() {
         return getWeatherForCityTool("beijing");
     }
-}
+} 
