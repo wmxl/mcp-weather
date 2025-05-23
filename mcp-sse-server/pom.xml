@@ -20,6 +20,12 @@
             <artifactId>mcp-common</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>io.modelcontextprotocol.sdk</groupId>
+            <artifactId>mcp-spring-webmvc</artifactId>
+            <version>0.7.0</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>
